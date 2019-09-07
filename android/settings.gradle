@@ -1,0 +1,3 @@
+rootProject.name = 'testjsi5_RN59'
+
+include ':app'
