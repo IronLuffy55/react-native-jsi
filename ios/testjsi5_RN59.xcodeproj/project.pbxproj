@@ -36,6 +36,8 @@
 		2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D16E6891FA4F8E400B85C8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* testjsi5_RN59Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* testjsi5_RN59Tests.m */; };
 		2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
+		3B5B099C235B8CDC00170697 /* hello2.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3B5B099B235B8CDC00170697 /* hello2.mm */; };
+		3B5B09A1235B97E300170697 /* hellocpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B5B099F235B97E300170697 /* hellocpp.cpp */; };
 		3BA3F22F2324466B00F24E13 /* Test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BA3F22D2324466B00F24E13 /* Test.cpp */; };
 		3BA3F25F2324467300F24E13 /* TestBinding.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BA3F25D2324467300F24E13 /* TestBinding.cpp */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
@@ -343,6 +345,13 @@
 		2D02E47B1E0B4A5D006451C7 /* testjsi5_RN59-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "testjsi5_RN59-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* testjsi5_RN59-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "testjsi5_RN59-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B5B0971235B883900170697 /* testjsi5_RN59-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testjsi5_RN59-Bridging-Header.h"; sourceTree = "<group>"; };
+		3B5B0999235B8AD800170697 /* libhello.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libhello.dylib; sourceTree = "<group>"; };
+		3B5B099B235B8CDC00170697 /* hello2.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = hello2.mm; sourceTree = "<group>"; };
+		3B5B099D235B8DD200170697 /* hello2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hello2.h; sourceTree = "<group>"; };
+		3B5B099F235B97E300170697 /* hellocpp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hellocpp.cpp; sourceTree = "<group>"; };
+		3B5B09A0235B97E300170697 /* hellocpp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hellocpp.h; sourceTree = "<group>"; };
+		3B5B09A3235B9A8E00170697 /* hello2-c-interface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hello2-c-interface.h"; sourceTree = "<group>"; };
 		3BA3F22D2324466B00F24E13 /* Test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Test.cpp; sourceTree = "<group>"; };
 		3BA3F22E2324466B00F24E13 /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
 		3BA3F25D2324467300F24E13 /* TestBinding.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TestBinding.cpp; sourceTree = "<group>"; };
@@ -493,6 +502,11 @@
 		13B07FAE1A68108700A75B9A /* testjsi5_RN59 */ = {
 			isa = PBXGroup;
 			children = (
+				3B5B09A3235B9A8E00170697 /* hello2-c-interface.h */,
+				3B5B099D235B8DD200170697 /* hello2.h */,
+				3B5B099B235B8CDC00170697 /* hello2.mm */,
+				3B5B099F235B97E300170697 /* hellocpp.cpp */,
+				3B5B09A0235B97E300170697 /* hellocpp.h */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
@@ -504,6 +518,7 @@
 				3BA3F22E2324466B00F24E13 /* Test.h */,
 				3BA3F25D2324467300F24E13 /* TestBinding.cpp */,
 				3BA3F25E2324467300F24E13 /* TestBinding.h */,
+				3B5B0971235B883900170697 /* testjsi5_RN59-Bridging-Header.h */,
 			);
 			name = testjsi5_RN59;
 			sourceTree = "<group>";
@@ -534,6 +549,7 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3B5B0999235B8AD800170697 /* libhello.dylib */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
@@ -708,6 +724,9 @@
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1100;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -1132,10 +1151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B5B09A1235B97E300170697 /* hellocpp.cpp in Sources */,
 				3BA3F22F2324466B00F24E13 /* Test.cpp in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				3BA3F25F2324467300F24E13 /* TestBinding.cpp in Sources */,
+				3B5B099C235B8CDC00170697 /* hello2.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1228,6 +1249,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				HEADER_SEARCH_PATHS = (
@@ -1237,6 +1259,10 @@
 				);
 				INFOPLIST_FILE = testjsi5_RN59/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				OTHER_CFLAGS = (
 					"-DFOLLY_NO_CONFIG",
 					"-DFOLLY_MOBILE=1",
@@ -1249,6 +1275,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = testjsi5_RN59;
+				SWIFT_OBJC_BRIDGING_HEADER = "testjsi5_RN59-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -1258,6 +1287,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../node_modules/react-native/third-party/folly-2018.10.22.00",
@@ -1266,6 +1296,10 @@
 				);
 				INFOPLIST_FILE = testjsi5_RN59/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				OTHER_CFLAGS = (
 					"-DFOLLY_NO_CONFIG",
 					"-DFOLLY_MOBILE=1",
@@ -1278,6 +1312,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = testjsi5_RN59;
+				SWIFT_OBJC_BRIDGING_HEADER = "testjsi5_RN59-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;

@@ -10,12 +10,20 @@
 #import <React/RCTBridge+Private.h>
 #import <React/RCTBundleURLProvider.h>
 #import <React/RCTRootView.h>
+//#import "hello2.h"
+#import "hellocpp.h"
 #import "Test.h"
 #import "TestBinding.h"
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+//  [[[Hello2 alloc] init]sayHello];
+  HelloCPP *hellocpp = new HelloCPP();
+  hellocpp->init();
+  hellocpp->sayHello();
+//  HelloCPP::sayHello();
   RCTBridge *bridge = [[RCTBridge alloc] initWithDelegate:self launchOptions:launchOptions];
   RCTRootView *rootView = [[RCTRootView alloc] initWithBridge:bridge
                                                    moduleName:@"testjsi5_RN59"
