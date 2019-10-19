@@ -15,8 +15,12 @@ RCT_EXPORT_METHOD(initialize) {
   HelloJsiModule::install(self);
 
 }
-RCT_EXPORT_METHOD(sayHello) {
-  NSLog(@"HElloModuleJSI: Hello from objective c");
+-(void) sayHello {
+  NSLog(@"HElloModuleJSI: sayHello: Hello from objective c");
   return;
+}
+-(NSString *) sayHelloWithInput: (NSString *)input {
+  NSLog(@"HElloModuleJSI: sayHelloWIthInput: Hello from objective c: input> %@",input);
+  return input;
 }
 @end

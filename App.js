@@ -29,6 +29,10 @@ export default class App extends Component<Props> {
     // console.log("global>", global);
     console.log("global.HelloModule>", global.HelloModule);
     console.log("global.HelloModuyle.sayHello>", global.HelloModule.sayHello());
+    console.log(
+      "global.HelloModuyle.sayHelloWithInput>",
+      global.HelloModule.sayHelloWithInput("Calling OC code directly")
+    );
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>Welcome to React Native!</Text>

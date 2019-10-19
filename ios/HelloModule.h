@@ -8,5 +8,7 @@
 
 @interface HelloModule : RCTEventEmitter <RCTBridgeModule>
 // The Objective-C member function you want to call from C++
-- (void) sayHello;
+-
+(void) sayHello;
+-(NSString *) sayHelloWithInput:(NSString*) input;
 @end
