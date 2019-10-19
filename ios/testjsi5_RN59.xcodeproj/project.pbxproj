@@ -38,6 +38,8 @@
 		2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
 		3B5B099C235B8CDC00170697 /* hello2.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3B5B099B235B8CDC00170697 /* hello2.mm */; };
 		3B5B09A1235B97E300170697 /* hellocpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B5B099F235B97E300170697 /* hellocpp.cpp */; };
+		3B5B09A7235BA93300170697 /* HelloModule.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3B5B09A6235BA93300170697 /* HelloModule.mm */; };
+		3B5B09AA235BAB7000170697 /* HelloJsiModule.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3B5B09A9235BAB7000170697 /* HelloJsiModule.mm */; };
 		3BA3F22F2324466B00F24E13 /* Test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BA3F22D2324466B00F24E13 /* Test.cpp */; };
 		3BA3F25F2324467300F24E13 /* TestBinding.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BA3F25D2324467300F24E13 /* TestBinding.cpp */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
@@ -352,6 +354,10 @@
 		3B5B099F235B97E300170697 /* hellocpp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hellocpp.cpp; sourceTree = "<group>"; };
 		3B5B09A0235B97E300170697 /* hellocpp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hellocpp.h; sourceTree = "<group>"; };
 		3B5B09A3235B9A8E00170697 /* hello2-c-interface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hello2-c-interface.h"; sourceTree = "<group>"; };
+		3B5B09A6235BA93300170697 /* HelloModule.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = HelloModule.mm; sourceTree = "<group>"; };
+		3B5B09A8235BA95500170697 /* HelloModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloModule.h; sourceTree = "<group>"; };
+		3B5B09A9235BAB7000170697 /* HelloJsiModule.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = HelloJsiModule.mm; sourceTree = "<group>"; };
+		3B5B09AB235BAB7A00170697 /* HelloJsiModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloJsiModule.h; sourceTree = "<group>"; };
 		3BA3F22D2324466B00F24E13 /* Test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Test.cpp; sourceTree = "<group>"; };
 		3BA3F22E2324466B00F24E13 /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
 		3BA3F25D2324467300F24E13 /* TestBinding.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TestBinding.cpp; sourceTree = "<group>"; };
@@ -519,6 +525,10 @@
 				3BA3F25D2324467300F24E13 /* TestBinding.cpp */,
 				3BA3F25E2324467300F24E13 /* TestBinding.h */,
 				3B5B0971235B883900170697 /* testjsi5_RN59-Bridging-Header.h */,
+				3B5B09A9235BAB7000170697 /* HelloJsiModule.mm */,
+				3B5B09AB235BAB7A00170697 /* HelloJsiModule.h */,
+				3B5B09A8235BA95500170697 /* HelloModule.h */,
+				3B5B09A6235BA93300170697 /* HelloModule.mm */,
 			);
 			name = testjsi5_RN59;
 			sourceTree = "<group>";
@@ -1154,9 +1164,11 @@
 				3B5B09A1235B97E300170697 /* hellocpp.cpp in Sources */,
 				3BA3F22F2324466B00F24E13 /* Test.cpp in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				3B5B09AA235BAB7000170697 /* HelloJsiModule.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				3BA3F25F2324467300F24E13 /* TestBinding.cpp in Sources */,
 				3B5B099C235B8CDC00170697 /* hello2.mm in Sources */,
+				3B5B09A7235BA93300170697 /* HelloModule.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

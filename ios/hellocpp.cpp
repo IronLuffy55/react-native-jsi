@@ -1,10 +1,4 @@
-//
-//  hellocpp.cpp
-//  testjsi5_RN59
-//
-//  Created by Wilking Interiano on 10/19/19.
-//  Copyright © 2019 Facebook. All rights reserved.
-//
+
 
 #include "hellocpp.h"
 #include "hello2-c-interface.h"

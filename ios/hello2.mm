@@ -9,7 +9,7 @@ void Hello2Impl::init( void )
 }
 void Hello2Impl::sayHello(  )
 {
-  [[[Hello2 alloc] init] sayHello];
+//  [[Hello2 alloc] init]
 //  [(__bridge id)self sayHello];
 //  [(__bridge id)self sayHello];
 }
