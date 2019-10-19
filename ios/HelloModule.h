@@ -4,9 +4,13 @@
 #import <React/RCTUIManager.h>
 #import <React/RCTUIManagerObserverCoordinator.h>
 #import <React/RCTUIManagerUtils.h>
+#import "testjsi5_RN59-Swift.h"
 
 
-@interface HelloModule : RCTEventEmitter <RCTBridgeModule>
+
+@interface HelloModule : RCTEventEmitter <RCTBridgeModule> {
+  HelloSwift *helloSwift;
+}
 // The Objective-C member function you want to call from C++
 -
 (void) sayHello;
